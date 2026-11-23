@@ -6,11 +6,17 @@
     <title>Weather App</title>
 </head>
 <body>
-    <header>
-        <h1>hi</h1>
-    </header>
-    <main>
-        <h2>hello</h2>
-    </main>
+    <form id="signup-form">
+        <label for="locationInput" id="location">Search Location</label>
+        <input type="text"  id="locationInput" name="location" required/>
+        <input type="submit" value="Submit" />
+    </form>
+
+    <div id="weather">
+        <h1 id="city"></h1>
+        <h1 id="temperature"></h1>
+        <h1 id="conditions"></h1>
+        <h1 id="humidity"></h1>
+    </div>
 </body>
 </html>

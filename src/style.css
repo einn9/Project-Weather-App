@@ -1,0 +1,65 @@
+
+html, body {
+    padding: 0;
+    background: rgb(245, 235, 221);
+}
+
+body {
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(80, 55, 40);
+}
+
+form {
+    display: inline-block;
+    background-color: rgb(235, 218, 195);
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+label {
+    font-weight: 700;
+    color: rgb(131, 62, 27);
+}
+
+#locationInput {
+    padding: 10px;
+    border: 2px solid rgb(199, 158, 131);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+input[type="submit"], button {
+    background-color: rgb(131, 62, 27);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: rgb(100, 45, 20);
+}
+
+#weather {
+    display: block;
+    background-color: rgb(235, 218, 195);
+    border-radius: 12px;
+    padding: 20px 50px;
+    margin-top: 20px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+#weather h1 {
+    font-size: 22px;
+    color: rgb(131, 62, 27);
+}
+
+#city {
+    font-size: 30px;
+    font-weight: 900;
+}
